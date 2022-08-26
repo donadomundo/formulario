@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <title>Café Starbuzz</title>
+    <style>
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            padding: 10px;
+        }
+                h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    
+        <h1>A Máquina de Grãos do Starbuzz</h1>
+            <p>Complete o formulario a seguir e clique em "pedido"</p>
+         <br>   
+    
+    <form>
+        <fieldset>
+            
+                
+                    <label>escolha seus grãos</label>
+                    <select id="mistura">
+                        <option>mistura da casa</option>
+                    </select>
+                
+
+                <div>tipo:</div>
+                <hr>
+                
+                <div>
+                    <input type="radio" nome="grãoI" id="grão"
+                        <label>grão inteiro</label>
+                </div>
+
+                <div>
+                    <input type="radio" nome="moido" id="Gmoido"
+                    <label>moído</label>
+                </div> <br>
+                
+                <div>extras:</div>
+                <hr>
+                
+                
+
+                <div>
+                    
+                    <input type="CHECKBOX" nome="embalagem1" id="presente1"
+                    <label>embalagem de resente</label>
+                
+                </div>
+                    
+                    <input type="CHECKBOX" nome="embalagem1" id="presente1"
+                    <label>embalagem de resente</label>
+         
+                <div> 
+                    enviar para:
+                </div>
+                
+            <div class="box"
+                <label>nome:</label> 
+                <input type="texto" name="nome" id="nome"
+                placeholder="nome completo..."
+            </div><br>
+
+                <div>
+                
+                    <br>
+                    <label>endereço:</label> 
+                    <input type="texto" name="endereço" id="endereço"
+                    placeholder="endereço de entrega..."
+                </div>
+
+                <div>
+                    <br>
+                <label>cidade:</label> 
+                <input type="texto" name="cidade" id="cidade"
+                placeholder="nome da cidade..."
+                </div>
+
+                <div>
+                    <br>
+                    <label>estado:</label> 
+                    <select id="mistura">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                        <option>DF</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <br>
+                        <label>CEP:</label> 
+                        <input type="texto" name="CEP" id="CEP"
+                        placeholder="00000-000"
+                </div>
+
+                
+                    <br>
+                            <label>comentario do cliente:</label> 
+                            <textarea name="coment" id="iCom" cols="30" rows="10"></textarea>
+                
+                <br>
+                <button type="submit">pedido</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
